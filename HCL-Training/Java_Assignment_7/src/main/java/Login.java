@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.sql.*;
 
 @WebServlet("/login")
-public class LoginServlet extends HttpServlet {
+public class Login extends HttpServlet {
 	public void init() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
